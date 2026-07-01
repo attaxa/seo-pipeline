@@ -9,9 +9,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/attaxa/seo-pipeline?style=flat-square&color=111111&label=stars" alt="Stars">
-  <img src="https://img.shields.io/github/v/release/attaxa/seo-pipeline?style=flat-square&color=111111&label=release" alt="Release">
-  <img src="https://img.shields.io/badge/license-MIT-111111?style=flat-square" alt="MIT license">
+  <img src="https://img.shields.io/github/stars/attaxa/seo-pipeline?style=flat-square" alt="Stars">
+  <img src="https://img.shields.io/github/v/release/attaxa/seo-pipeline?style=flat-square" alt="Release">
+  <img src="https://img.shields.io/github/license/attaxa/seo-pipeline?style=flat-square" alt="License">
 </p>
 
 <p align="center">
@@ -36,7 +36,13 @@ No bootstrap scripts, no setup commands. Each agent has a built-in path.
 
 ### Hermes Agent
 
-Load the pipeline skill:
+Install as a plugin:
+
+```bash
+hermes plugins install attaxa/seo-pipeline --enable
+```
+
+Or load the pipeline skill in-session:
 
 ```bash
 skill_view(name='seo-pipeline-llm')
@@ -212,7 +218,7 @@ See [`AGENTS.md`](AGENTS.md) for the full pipeline description, quality checklis
 ## Contributors
 
 <a href="https://github.com/attaxa/seo-pipeline/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=attaxa/seo-pipeline" alt="Contributors" />
+  <img src="https://img.shields.io/github/contributors/attaxa/seo-pipeline?style=flat-square" alt="Contributors" />
 </a>
 
 ---

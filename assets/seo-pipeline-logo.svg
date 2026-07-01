@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 	 width="800px" height="800px" viewBox="0 0 64.325 64.324"
 	 xml:space="preserve">
+<style>
+	path, polygon {
+		fill: #000000;
+	}
+	@media (prefers-color-scheme: dark) {
+		html:not([data-color-mode="light"]) path,
+		html:not([data-color-mode="light"]) polygon {
+			fill: #ffffff;
+		}
+	}
+	html[data-color-mode="dark"] path,
+	html[data-color-mode="dark"] polygon {
+		fill: #ffffff;
+	}
+</style>
 <g>
 	<path d="M5.865,34.72c-1.906,0-3.754-0.614-4.957-1.231L0,37.184c1.114,0.616,3.344,1.202,5.602,1.202
 		c5.426,0,7.977-2.815,7.977-6.129c0-2.786-1.643-4.604-5.132-5.895c-2.552-0.969-3.666-1.525-3.666-2.786
